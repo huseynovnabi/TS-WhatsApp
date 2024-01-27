@@ -1,0 +1,80 @@
+#Dom
+    padding: 100px 0
+    #chatYou
+        left: 7%
+    .chat
+        position: absolute
+        width: 37%
+        max-width: 500px
+        background-color: #E8EDFF
+        border-radius: 20px
+        padding: 22px
+        .message::-webkit-scrollbar
+            display: none
+        .message
+            height: 240px
+            background-color: #fff
+            border-radius: 20px
+            overflow: auto
+            .end
+                justify-content: flex-end
+            div
+                display: flex
+                .line
+                    max-width: 50%
+                    height: auto
+                    display: inline-block
+                    border-radius: 20px
+                    background-color: #7991E7
+                    padding: 10px
+                    margin: 7px 10px
+                    h3
+                        color: #fff
+                        line-height: 1.2
+                        word-wrap: break-word
+        .text
+            display: flex
+            align-items: center
+            justify-content: center
+            padding-top: 20px
+            input
+                width: 200px
+                border-radius: 20px
+                padding: 8px
+            .sent
+                background-color: #94A6E6
+                color: #fff
+                padding: 10px 22px
+                border-radius: 20px
+                margin-left: 10px
+                &:hover
+                    cursor: pointer
+@media screen and ( max-width: 992px)
+    #Dom
+        #chatYou
+            margin-bottom: 50px
+        .chat
+            position: static
+            width: 100%
+            padding: 25px
+
+@media screen and ( min-width: 1600px )
+    #Dom
+        #chatYou
+            left: 10%
+@media screen and ( min-width: 1700px )
+    #Dom
+        #chatYou
+            left: 12%
+@media screen and ( min-width: 1920px )
+    #Dom
+        #chatYou
+            left: 14%
+@media screen and ( min-width: 2100px )
+    #Dom
+        #chatYou
+            left: 18%
+@media screen and ( min-width: 2550px )
+    #Dom
+        #chatYou
+            left: 24%

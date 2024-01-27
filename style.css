@@ -1,0 +1,112 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+a {
+  color: orange;
+}
+a:hover {
+  color: black;
+}
+
+#Dom {
+  padding: 100px 0;
+}
+#Dom #chatYou {
+  left: 7%;
+}
+#Dom .chat {
+  position: absolute;
+  width: 37%;
+  max-width: 500px;
+  background-color: #E8EDFF;
+  border-radius: 20px;
+  padding: 22px;
+}
+#Dom .chat .message::-webkit-scrollbar {
+  display: none;
+}
+#Dom .chat .message {
+  height: 240px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: auto;
+}
+#Dom .chat .message .end {
+  justify-content: flex-end;
+}
+#Dom .chat .message div {
+  display: flex;
+}
+#Dom .chat .message div .line {
+  max-width: 50%;
+  height: auto;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: #7991E7;
+  padding: 10px;
+  margin: 7px 10px;
+}
+#Dom .chat .message div .line h3 {
+  color: #fff;
+  line-height: 1.2;
+  word-wrap: break-word;
+}
+#Dom .chat .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+#Dom .chat .text input {
+  width: 200px;
+  border-radius: 20px;
+  padding: 8px;
+}
+#Dom .chat .text .sent {
+  background-color: #94A6E6;
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+#Dom .chat .text .sent:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  #Dom #chatYou {
+    margin-bottom: 50px;
+  }
+  #Dom .chat {
+    position: static;
+    width: 100%;
+    padding: 25px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #Dom #chatYou {
+    left: 10%;
+  }
+}
+@media screen and (min-width: 1700px) {
+  #Dom #chatYou {
+    left: 12%;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #Dom #chatYou {
+    left: 14%;
+  }
+}
+@media screen and (min-width: 2100px) {
+  #Dom #chatYou {
+    left: 18%;
+  }
+}
+@media screen and (min-width: 2550px) {
+  #Dom #chatYou {
+    left: 24%;
+  }
+}/*# sourceMappingURL=style.css.map */
